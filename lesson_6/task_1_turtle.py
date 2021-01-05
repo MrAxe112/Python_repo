@@ -15,11 +15,11 @@ class TrafficLight:
                 self.__colour = "red"
             elif self.__colour == "yellow":
                 t3.fillcolor((178, 190, 181))
-                t2.fillcolor((255,255,51))
+                t2.fillcolor((255, 255, 51))
                 time.sleep(2)
                 self.__colour = "green"
             elif self.__colour == "red":
-                t3.fillcolor((227,0,34))
+                t3.fillcolor((227, 0, 34))
                 t1.fillcolor((178, 190, 181))
                 time.sleep(7)
                 self.__colour = "yellow"
@@ -41,8 +41,7 @@ def draw_body():
 
 def circle(trtl, height):
     trtl.penup()
-    trtl.goto(-27.55, -50)
-    trtl.forward(18)
+    trtl.goto(-10, -50)
     trtl.left(90)
     trtl.forward(height)
     trtl.shape("circle")
